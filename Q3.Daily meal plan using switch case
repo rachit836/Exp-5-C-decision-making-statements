@@ -43,3 +43,14 @@ int main(){
     
     return 0;
 }
+OUTPUT:
+day wise meal plan
+1. Monday
+2.Tuesday
+3.Wednesday
+4.Thursday
+5.Friday
+6.Saturday
+7.Sunday
+enter your choice : 7
+boiled foods(vegtable salad)
