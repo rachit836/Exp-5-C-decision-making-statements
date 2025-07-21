@@ -23,3 +23,7 @@ int main(){
     
     return 0;
 }
+
+OUTPUT:
+enter the number = 6
+the number is even
