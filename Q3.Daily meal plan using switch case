@@ -1,0 +1,45 @@
+//Rachit Singh
+//24070123080
+//A3
+#include <iostream>
+using namespace std;
+
+int main(){
+    int choice;
+    cout<<"day wise meal plan"<<endl;
+    cout<<"1. Monday"<<endl<<"2.Tuesday"<<endl<<"3.Wednesday"<<endl<<"4.Thursday"<<endl<<"5.Friday"<<endl<<"6.Saturday"<<endl<<"7.Sunday"<<endl;
+    cout<<"enter your choice : ";
+    cin>>choice;
+    switch(choice){
+        case 1:
+        cout<<"egg day(toast,omlet,butter)";
+        break;
+        case 2:
+        cout<<"veg meal(rice,dal,vegetable salad)";
+        break;
+        case 3:
+        cout<<"non veg(fish,chicken)";
+        break;
+        case 4:
+        cout<<"veg meal(chapati,curd rice,vegetables)";
+        break;
+        case 5:
+        cout<<"non vge(meat,chicken)";
+        break;
+        case 6:
+        cout<<"fats containing food(chole bhature or puri bhaji)";
+        break;
+        case 7:
+        cout<<"boiled foods(vegtable salad)";
+        break;
+        default:
+        cout<<"you entered the wroung choice";
+        break;
+        
+        
+    }
+  
+    
+    
+    return 0;
+}
