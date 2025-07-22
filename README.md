@@ -5,31 +5,27 @@ To study and implement decision-making statements in C++.
 Tools Required:
 Visual Studio Code (VS Code)
 
-C++ Compiler (MinGW-w64)
 
-Terminal / Command Prompt
+
+
 
 Theory:
 Decision-making statements allow the program to make decisions and execute different code blocks based on conditions.
 
 Types of Decision-Making Statements in C++:
-if Statement
+if Statement:
 
 Executes code if a condition is true.
+syntax:
 
-cpp
-Copy
-Edit
 if (a > b) {
     cout << "a is greater";
 }
-if...else Statement
+if...else Statement:
 
 Executes one block if condition is true, another if false.
 
-cpp
-Copy
-Edit
+syntax:
 if (num % 2 == 0) {
     cout << "Even";
 } else {
@@ -39,9 +35,7 @@ else if Ladder
 
 Multiple conditions can be checked in sequence.
 
-cpp
-Copy
-Edit
+syntax:
 if (marks >= 90) {
     cout << "Grade: O";
 } else if (marks >= 80) {
@@ -53,9 +47,7 @@ Nested if Statement
 
 An if or else if inside another if.
 
-cpp
-Copy
-Edit
+syntax:
 if (a > b) {
     if (a > c) {
         cout << "a is greatest";
@@ -65,9 +57,7 @@ switch Statement
 
 Replaces multiple if...else for checking a single variable.
 
-cpp
-Copy
-Edit
+synatx:
 switch(day) {
     case 1: cout << "Monday"; break;
     case 2: cout << "Tuesday"; break;
